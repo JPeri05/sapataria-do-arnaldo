@@ -5,17 +5,30 @@ body { background-color: peru;
 }
 
 .titulo-artigo {
-    font-size: 24pt;
+    font-size: 50pt; margin-bottom:30px;
 }
 
 .subtitulo-artigo {
-    font-size: 20pt;
+    font-size: 25pt; margin-bottom:40px;
 }
 
 .pagina {
-    margin-top: 20px; 
-    margin-left: 15px;
+     margin-top: 20px; 
+     margin-left: 15px;
      margin-bottom: 20px; 
      margin-right: 15px; 
      border-top-width: 5px;
+}
+
+.imagem-produto {
+    height:300px;
+    width:350px; margin-left:445px; margin-bottom:20px;
+}
+
+.centrar {
+    margin-left:430px; margin-top:50px;
+}
+
+.paragrafo {
+    margin-top:15px; font-size: larger; text-align: left; margin-left:100px; margin-right:100px;
 }
