@@ -1,31 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
 
 body {
-    background-color: peru;
+    background-color:peru;
     font-family: 'Ubuntu', sans-serif;
+    text-align: left;
+    margin-right:50px;
+    margin-left:50px;
+    margin-bottom:10px;
+    margin-top:15px;
 }
 
 footer { 
-    background-color: darkorange;
+    background-color:sandybrown;
     font-family: 'Ubuntu', sans-serif;
+    font-size: 15pt;
+    margin-top:20pt;
+}
+
+header {
+    background-color:sandybrown;
+    font-size:20pt;
 }
 
 .titulo-artigo {
-    font-size: 100pt;
-    margin-bottom:30px;
+    font-size:100pt;
+    margin-top:10pt;
+    margin-bottom: 5pt;
 }
 
 .subtitulo-artigo {
-    font-size: 50pt;
-    margin-bottom:40px;
+    font-size:50pt;
+    margin-top:5pt;
+    margin-bottom:10pt;
 }
 
-.pagina {
-     margin-top: 20px; 
-     margin-left: 0px;
-     margin-bottom: 0px; 
-     margin-right: 0px; 
-     border-top-width: 5px;
+.paragrafo {
+    font-size:25pt;
+    margin-top:5pt;
+    margin-bottom:5pt;
 }
 
 .imagem-produto {
@@ -34,14 +46,6 @@ footer {
 }
 
 .centrar {
-    margin-left:430px;
-    margin-top:50px;
+    align-content: center;
 }
 
-.paragrafo {
-    margin-top:15px;
-    font-size: 25pt;
-    text-align: left;
-    margin-left:100px;
-    margin-right:100px;
-}
