@@ -1,51 +1,89 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
 
+:root {
+    --cor-principal:#A9907E;
+    --cor-complemento:#675D50;
+}
+
 body {
-    background-color:peru;
+    background-color:#F3DEBA;
     font-family: 'Ubuntu', sans-serif;
     text-align: left;
     margin-right:50px;
     margin-left:50px;
     margin-bottom:10px;
     margin-top:15px;
+    font-weight: 600;
 }
 
 footer { 
-    background-color:sandybrown;
+    background-color:var(--cor-principal);
     font-family: 'Ubuntu', sans-serif;
     font-size: 15pt;
     margin-top:20pt;
+    margin-right:-50px;
+    margin-left:-50px;
+    text-align: center;
+    color:var(--cor-complemento);
 }
 
 header {
-    background-color:sandybrown;
+    background-color:var(--cor-principal);
     font-size:20pt;
+    margin-top:0pt;
+    margin-bottom:0pt;
+    margin-right:-50px;
+    margin-left:-50px;
+    align-self: self-start;
+}
+
+.navegador-site ul {
+    line-height: 3;
+    margin-right:20px;
+    margin-left:30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navegador-site a { 
+    font-size:1.5rem;
+    text-decoration:none;
+    color: #ABC4AA;
 }
 
 .titulo-artigo {
-    font-size:100pt;
+    color:var(--cor-complemento);
+    font-size:3rem;
     margin-top:10pt;
     margin-bottom: 5pt;
 }
 
 .subtitulo-artigo {
-    font-size:50pt;
+    color:var(--cor-complemento);
+    font-size:2rem;
     margin-top:5pt;
     margin-bottom:10pt;
 }
 
 .paragrafo {
-    font-size:25pt;
-    margin-top:5pt;
-    margin-bottom:5pt;
+    color:var(--cor-complemento);
+    font-size:19pt;
+    margin-top:25pt;
+    margin-bottom:20pt;
+    text-align:left;
+    line-height: 1.4;
 }
 
 .imagem-produto {
-    height:300px;
-    width:350px; margin-left:445px; margin-bottom:20px;
+    height:150px;
+    width:135px;
+    margin-bottom:20px;
 }
 
 .centrar {
     align-content: center;
 }
 
+.artigo-alinhar {
+    text-align: center;
+}
